@@ -4,19 +4,22 @@
   "description": "A Classicube server written in Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/727021/MCNode.git"
   },
-  "author": "",
+  "author": "Andrew Schimelpfening",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/727021/MCNode/issues"
   },
   "homepage": "https://github.com/727021/MCNode#readme",
   "dependencies": {
+    "md5": "^2.2.1",
+    "node-gzip": "^1.1.2",
     "uuid": "^8.0.0"
   }
 }
